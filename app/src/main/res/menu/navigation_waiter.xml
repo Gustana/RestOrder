@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/waiter_navigation_menu"
+        android:icon="@drawable/ic_baseline_list_alt_black_24dp"
+        android:title="@string/title_menu" />
+
+    <item
+        android:id="@+id/waiter_navigation_cart"
+        android:icon="@drawable/ic_shopping_cart_black_24dp"
+        android:title="@string/title_cart" />
+
+    <item
+        android:id="@+id/waiter_navigation_report"
+        android:icon="@drawable/ic_assignment_black_24dp"
+        android:title="@string/title_report" />
+
+    <item
+        android:id="@+id/waiter_navigation_register"
+        android:icon="@drawable/ic_vpn_key_black_24dp"
+        android:title="@string/title_key_user"/>
+
+</menu>

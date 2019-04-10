@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="@android:color/black"
+        android:text="2. Diproses"
+        android:textSize="@dimen/dimenPrimaryText"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="@android:color/black"
+        android:text="3. Selesai"
+        android:textSize="@dimen/dimenPrimaryText"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edtMenuStatus"
+        android:layout_width="@dimen/dimenPrimaryFormWidth"
+        android:inputType="number"
+        android:hint="Status"
+        android:textColor="@android:color/black"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnChangeMenuStat"
+        android:text="Kirim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

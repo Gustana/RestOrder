@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">RestOrder</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_menu">Menu</string>
+    <string name="title_cart">Cart</string>
+    <string name="title_report">Report</string>
+    <string name="title_key_user">Register</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="txt_menu_available">Tersedia</string>
+    <string name="txt_menu_sold_out">Habis</string>
+    <string name="order_label_string">Pesanan</string>
+    <string name="logout_string">LogOut</string>
+    <string name="ordered_menu">Ordered Menu</string>
+
+    <string-array name="month_list">
+        <item>Januari</item>
+        <item>Februari</item>
+        <item>Maret</item>
+        <item>April</item>
+        <item>Mei</item>
+        <item>Juni</item>
+        <item>Juli</item>
+        <item>Agustus</item>
+        <item>September</item>
+        <item>Oktober</item>
+        <item>November</item>
+        <item>Desember</item>
+    </string-array>
+
+</resources>

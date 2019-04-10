@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.menu.AddMenuActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="Tambah Masakan"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/dimenPrimaryText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Masakan"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/dimenSecondaryText" />
+
+    <EditText
+        android:id="@+id/edtMenuName"
+        android:layout_width="@dimen/dimenPrimaryFormWidth"
+        android:layout_height="wrap_content"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Harga Masakan"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/dimenSecondaryText" />
+
+    <EditText
+        android:id="@+id/edtMenuPrice"
+        android:layout_width="@dimen/dimenPrimaryFormWidth"
+        android:layout_height="wrap_content"
+        android:inputType="number" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deskripsi Masakan"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/dimenSecondaryText" />
+
+    <EditText
+        android:id="@+id/edtMenuDesc"
+        android:layout_width="@dimen/dimenPrimaryFormWidth"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jumlah Masakan"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/dimenSecondaryText" />
+
+    <EditText
+        android:id="@+id/edtMenuStock"
+        android:layout_width="@dimen/dimenPrimaryFormWidth"
+        android:layout_height="wrap_content"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnAddMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginTop="32dp"
+        android:text="Tambah Menu" />
+
+    <EditText
+        android:id="@+id/edtTableNo"
+        android:layout_marginTop="16dp"
+        android:layout_width="@dimen/dimenPrimaryFormWidth"
+        android:layout_height="wrap_content"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnAddTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginTop="32dp"
+        android:text="Tambah Meja" />
+
+</LinearLayout>

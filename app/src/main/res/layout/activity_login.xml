@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    tools:context=".view.auth.LoginActivity">
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/dimenPrimaryText" />
+
+        <EditText
+            android:id="@+id/edtUsername"
+            android:layout_width="@dimen/dimenPrimaryFormWidth"
+            android:layout_height="@dimen/dimenPrimaryForHeight"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/form_edit_text_background"
+            android:inputType="text"
+            android:padding="8dp"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Password"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/dimenPrimaryText" />
+
+        <EditText
+            android:id="@+id/edtPassword"
+            android:layout_width="@dimen/dimenPrimaryFormWidth"
+            android:layout_height="@dimen/dimenPrimaryForHeight"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/form_edit_text_background"
+            android:inputType="textPassword"
+            android:padding="8dp"
+            android:textColor="@color/colorPrimary" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="@dimen/dimenPrimaryButtonWidth"
+            android:layout_height="@dimen/dimenPrimaryButtonHeight"
+            android:layout_marginBottom="8dp"
+            android:background="@color/colorPrimary"
+            android:text="Masuk"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+</RelativeLayout>
